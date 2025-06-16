@@ -10,7 +10,7 @@ function Profile({ mySkills }) {
     >
       <div className="max-w-3xl lg:px-10 px-4 md:px-6 flex flex-col items-center mt-10 lg:mt-4 justify-center gap-4 ">
         <h1 className="text-gray-200 text-3xl md:text-4xl font-bold shadow-2xl text-center">
-          Frontend Developer
+          Full Stack Developer
         </h1>
         <p className="text-lg font-semibold">
           I am a fresher web developer with strong skills in CSS, JavaScript,

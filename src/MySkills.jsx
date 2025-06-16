@@ -12,7 +12,7 @@ function MySkills() {
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2QP4wG2DnJ7gi_F4OjFWO6PsrZQ1sjOrX4A&s"
         />
         <img
-          className="h-24 animate-pulse lg:animate-bounce lg:mt-4 lg:ml-8"
+          className="h-24 animate-pulse lg:animate-bounce lg:mt-4 lg:ml-8 mt-2"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDML5CFq70Y9FJ52YnyCjfdyUA3g9B6is_jA&s"
         />
         <img
@@ -28,11 +28,11 @@ function MySkills() {
           src="https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png"
         />
         <img
-          className="h-36 lg:ml-8 animate-pulse lg:animate-bounce"
+          className="h-24 lg:ml-8 animate-pulse lg:animate-bounce"
           src="https://img.icons8.com/color/512/express-js.png"
         />
         <img
-          className="h-36 lg:ml-8 animate-pulse lg:animate-bounce"
+          className="h-24 lg:ml-8 animate-pulse lg:animate-bounce"
           src="https://images.icon-icons.com/2415/PNG/512/mongodb_original_logo_icon_146424.png"
         />
       </div>
