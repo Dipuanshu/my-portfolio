@@ -20,9 +20,9 @@ function Profile({ mySkills }) {
           in a professional setting.
         </p>
         <a
-          class=" bg-red-400 px-4 py-2 text-white rounded-md hover:shadow-2xl  hover:px-5 hover:py-3 hover:shadow-yellow-500/95"
-          href={SurajResume}
-          target="_blank"
+          className="bg-red-400 px-4 py-2 text-white rounded-md hover:shadow-2xl hover:px-5 hover:py-3 hover:shadow-yellow-500/95"
+          href="Ai Deepankar Resume-New.pdf"
+          download
         >
           Download Resume
         </a>
