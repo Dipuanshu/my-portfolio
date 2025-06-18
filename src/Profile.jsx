@@ -21,7 +21,7 @@ function Profile({ mySkills }) {
         </p>
         <a
           className="bg-red-400 px-4 py-2 text-white rounded-md hover:shadow-2xl hover:px-5 hover:py-3 hover:shadow-yellow-500/95"
-          href="Ai Deepankar Resume-New.pdf"
+          href="Ai Deepankar Resume-2.pdf"
           download
         >
           Download Resume
