@@ -6,31 +6,7 @@ function Assignment() {
   return (
     <div class=" sm:px-24 p-3 bg-orange-50 flex flex-col items-center">
       <h1 class=" text-2xl font-bold mt-4 sm:text-left">My Works</h1>
-      <a href="https://tv-shows-create-by-suraj.netlify.app/" target="_blank">
-        <div class=" p-4 flex flex-col mb-2 sm:mt-7 sm:flex-row sm:p-0 sm:pb-4 sm:items-stretch border-b-2 border-black">
-          <img
-            class=" w-full object-cover sm:w-56"
-            src="https://media.craiyon.com/2025-04-27/tUpppnv1TS2A3v7MwyfEZg.webp"
-          />
-          <div class=" flex flex-col sm:justify-between sm:ml-4">
-            <h1 class=" text-xl font-bold mt-3 sm:mt-0">TV Shows App</h1>
-            <p class=" mt-3 sm:mt-2 text-gray-500">
-              <span class=" bg-blue-900 px-3 py-0.5 rounded-l-full rounded-r-full text-white font-bold mr-7">
-                2023
-              </span>
-              Dashboard
-            </p>
-            <p class="  pb-2 mt-6 sm:mt-2 ">
-              This brief line reassures the user that their input was received,
-              dynamically shows what’s being searched for, and smoothly
-              transitions into displaying the list of matching shows—poster
-              cards, titles, ratings, etc. To style it in your React/Tailwind
-              app, you might use a JSX snippet like
-            </p>
-          </div>
-        </div>
-      </a>
-      <a href="https://dishu-complaintmanagement.netlify.app/" target="_blank">
+      <a href="https://tander-management.vercel.app/" target="_blank">
         <div class=" p-4 flex flex-col mb-2 sm:mt-7 sm:flex-row sm:p-0 sm:pb-4 sm:items-stretch border-b-2 border-black">
           <img
             class=" w-full object-cover sm:w-56"
@@ -38,7 +14,7 @@ function Assignment() {
           />
           <div class=" flex flex-col sm:justify-between sm:ml-4">
             <h1 class=" text-xl font-bold mt-3 sm:mt-0">
-              Complaint Mangement System
+              Tender Mangement System
             </h1>
             <p class=" mt-3 sm:mt-2 text-gray-500">
               <span class=" bg-blue-900 px-3 py-0.5 rounded-l-full rounded-r-full text-white font-bold mr-7">
@@ -47,14 +23,11 @@ function Assignment() {
               Dashboard
             </p>
             <p class="  pb-2 mt-6 sm:mt-2 ">
-              Users can submit structured complaints—complete with category,
-              description, and optional attachments—which generate unique
-              tickets logged in a centralized admin dashboard. Administrators
-              review, respond to each complaint, and update its status (e.g.,
-              “in progress” or “resolved”), ensuring timely resolution and
-              transparent tracking. This streamlined process improves response
-              efficiency, user satisfaction, and provides valuable insights for
-              continuous system and service improvements .
+              It’s a simple B2B platform where companies can create and manage
+              their profiles, post tenders, browse other tenders, submit
+              proposals, and search for companies by name or industry — all
+              handled through a Node.js+Express backend with MongoDB and a React
+              frontend.
             </p>
           </div>
         </div>
@@ -93,14 +66,16 @@ function Assignment() {
           </div>
         </div>
       </a>
-      <a href="https://suraj-todo-app.netlify.app/" target="_blank">
+      <a href="https://collaborative-to-do.vercel.app/" target="_blank">
         <div class=" p-4 flex flex-col mb-2 sm:mt-7 sm:flex-row sm:p-0 sm:pb-4 sm:items-stretch border-b-2 border-black">
           <img
             class=" w-full object-cover sm:w-56"
             src="https://cdn-icons-png.flaticon.com/512/7692/7692809.png"
           />
           <div class=" flex flex-col sm:justify-between sm:ml-4">
-            <h1 class=" text-xl font-bold mt-3 sm:mt-0">ToDo App</h1>
+            <h1 class=" text-xl font-bold mt-3 sm:mt-0">
+              Collabrative ToDo App
+            </h1>
             <p class=" mt-3 sm:mt-2 text-gray-500">
               <span class=" bg-blue-900 px-3 py-0.5 rounded-l-full rounded-r-full text-white font-bold mr-7">
                 2022
@@ -108,13 +83,35 @@ function Assignment() {
               Dashboard
             </p>
             <p class="  pb-2 mt-6 sm:mt-2 ">
-              Your To‑Do app is a smart task manager that lets users quickly add
-              tasks (even via voice or natural language), organize them into
-              lists, set reminders, deadlines, and priorities, and track
-              progress with subtasks or Pomodoro timers. Seamless syncing across
-              devices, optional AI-powered suggestions, calendar integration,
-              and collaboration features make it both efficient and flexible for
-              personal or team use
+              This project uses Smart Assign to automatically give tasks to the
+              user with the fewest active tasks. It also uses Conflict Handling
+              to prevent data loss if two people edit the same task at the same
+              time. Both features help teams work together smoothly in real
+              time.
+            </p>
+          </div>
+        </div>
+      </a>
+      <a href="https://tv-shows-create-by-suraj.netlify.app/" target="_blank">
+        <div class=" p-4 flex flex-col mb-2 sm:mt-7 sm:flex-row sm:p-0 sm:pb-4 sm:items-stretch border-b-2 border-black">
+          <img
+            class=" w-full object-cover sm:w-56"
+            src="https://media.craiyon.com/2025-04-27/tUpppnv1TS2A3v7MwyfEZg.webp"
+          />
+          <div class=" flex flex-col sm:justify-between sm:ml-4">
+            <h1 class=" text-xl font-bold mt-3 sm:mt-0">TV Shows App</h1>
+            <p class=" mt-3 sm:mt-2 text-gray-500">
+              <span class=" bg-blue-900 px-3 py-0.5 rounded-l-full rounded-r-full text-white font-bold mr-7">
+                2023
+              </span>
+              Dashboard
+            </p>
+            <p class="  pb-2 mt-6 sm:mt-2 ">
+              This brief line reassures the user that their input was received,
+              dynamically shows what’s being searched for, and smoothly
+              transitions into displaying the list of matching shows—poster
+              cards, titles, ratings, etc. To style it in your React/Tailwind
+              app, you might use a JSX snippet like
             </p>
           </div>
         </div>
